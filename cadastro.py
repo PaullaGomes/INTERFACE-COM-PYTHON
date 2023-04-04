@@ -1,5 +1,7 @@
 from PySimpleGUI import PySimpleGUI as sg
 
+
+
 #Layout
 sg.theme('Reddit')
 Layout = [
@@ -17,4 +19,4 @@ while True:
   break
   if eventos == 'Entrar':
    if valores['usuario'] == 'paulla' and valores['senha'] == '123456':
-    print ('Bem-vindo a Tela que a Paulla acabou de criar')
+    print ('Bem-vindo a nova tela')
